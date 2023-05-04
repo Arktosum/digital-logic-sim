@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    width: calc(16 * 100px);
+    height: calc(9 * 50px);
+    background-color: black;
+    position: relative;
+}
+
+
+.chip{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+}
